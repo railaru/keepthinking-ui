@@ -1,0 +1,124 @@
+//mobile
+.wrapper{
+    margin: 0 auto;
+    .container{
+        margin: 0 $mobile-side-margin;
+        .container__inner{
+            margin: 0 auto;
+        }
+    }
+}
+
+//tablet
+@media (min-width: $breakpoint-medium){
+    .wrapper{
+        margin: 0 auto;
+        .container{
+            margin: 0 80px;
+            .container__inner{
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+//desktop
+@media (min-width: $breakpoint-large){
+    .wrapper{
+        max-width: $wrapper-desktop-max-width + $desktop-side-margin * 2;
+        margin: 0 auto;
+        .container{
+            margin: 0 $desktop-side-margin;
+            .container__inner{
+                max-width: $desktop-inner-content-width;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+
+.top-nav{
+    border-bottom: 1px solid rgba(219, 219, 219, 0.363);
+    &__elements{
+        display: grid;
+        grid-template-columns:  3fr 6fr 3fr;
+        grid-column-gap: 2vw;
+        &__search{
+            &__input{
+                border: 0;
+                border-bottom: 1px solid $color-3;
+            }
+        }
+    }
+ }
+ @media (max-width: $breakpoint-large - 1){
+     .top-nav{
+         &__elements{
+             &__search{
+                 &__input{
+                     font-size: 25px;
+                 }
+             }
+             &__socials{
+                display: none;
+             }
+             &__mobile-menu{
+                display: block;
+                &__icon{
+                    font-size: 30px;
+                }
+             }
+         }
+      }
+ }
+ @media (min-width: $breakpoint-large){
+     .top-nav{
+         &__elements{
+             &__search{
+                 &__input{
+                     width: 50%;               
+                     transition: $hover-transition;               
+                     &:focus{
+                          transition: $hover-transition;
+                          width: 100%;
+                          border-bottom: 1px solid $color-5;
+                     }
+                 }
+             }
+             &__socials{
+                display: block;
+             }
+             &__mobile-menu{
+                display: none;
+             }
+         }
+      }
+ }
+ //--
+ @media (max-width: $breakpoint-large - 1){
+     .content-container{
+         &__left{
+             display: none;
+         }
+         &__right{
+             display: none;
+         }
+     }
+ }
+ @media (min-width: $breakpoint-large){
+     .content-container{
+         display: grid;
+         grid-template-columns: 1fr 2fr 1fr;
+         grid-column-gap: 2vw;
+     }
+ }
+ //hover actions
+ .underline-on-hover{
+     transition: $hover-transition;
+     &:hover{
+         transition: $hover-transition;
+         text-decoration: underline;
+     }
+ }
+ 

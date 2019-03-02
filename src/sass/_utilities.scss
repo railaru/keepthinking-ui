@@ -1,0 +1,215 @@
+//shadows ------------
+.shadow-bottom-1{
+    box-shadow: 2px 10px 35px 5px rgba(0,0,0,0.01);
+}
+
+//display ------------
+.display-none{
+    display: none;
+}
+//opacity-0 ------------
+.opacity-0{
+    opacity: 0;
+}
+
+//text align ------------
+.text-align-right{
+    text-align: right;
+}
+
+//text transform ------------
+.text-transform-capitalize{
+    text-transform: capitalize;
+}
+.text-transform-uppercase{
+    text-transform: uppercase;
+}
+
+//height & width ------------
+.height-100vh{
+    height: 100vh;
+}
+.height-90vh{
+    height: 90vh;
+}
+.height-0{
+    height: 0;
+}
+
+//placing ------------
+.bottom-0{
+    bottom: 0;
+}
+.top-0{
+    top: 0;
+}
+.left-0{
+    left: 0;
+}
+.right-0{
+    right: 0;
+}
+
+//z-index ------------
+.z-index-1{ z-index: 1;}
+.z-index-2{ z-index: 2;}
+.z-index-3{ z-index: 3;}
+.z-index-4{ z-index: 4;}
+.z-index-5{ z-index: 5;}
+
+//position ------------
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+.position-fixed{
+    position: fixed;
+}
+.position-sticky{
+    position: sticky;
+}
+//padding ------------
+.padding-1{
+    padding: 10px;
+}
+//--
+.padding-left-50-perc{
+    padding-left: 50%;
+}
+.padding-left-0{
+    padding-left: 0;
+}
+//--
+.padding-right-0{
+    padding-right: 0;
+}
+//--
+.padding-top-0{
+    padding-top: 0;
+}
+//--
+.padding-bottom-0{
+    padding-bottom: 0;
+}
+//spacing ------------
+.spacing-bottom-1{
+    margin-bottom: 10px;
+}
+.spacing-bottom-2{
+    padding-bottom: 20px;
+}
+//--
+.spacing-top-1{
+    margin-top: 3vh;
+}
+.spacing-top-2{
+    margin-top: 50px;
+}
+
+//margin ------------
+.margin-left-50-perc{
+    margin-left: 50%;
+}
+.margin-left-0{
+    margin-left: 0 !important;
+}
+//--
+.margin-right-50-perc{
+    margin-right: 50%;
+}
+.margin-right-0{
+    margin-right: 0 !important;
+}
+//--
+.margin-top-50-perc{
+    margin-top: 50%;
+}
+//--
+.margin-bottom-50-perc{
+    margin-bottom: 50%;
+}
+
+//floats ------------
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+//width & height ------------
+.width-100-perc{
+    width: 100%;
+}
+.width-50-perc{
+    width: 50%;
+}
+@media (min-width: $breakpoint-large){
+    .width-50-perc-on-large{
+        width: 50%;
+    }
+}
+//--
+.height-100-perc{
+    height: 100%;
+}
+
+//overflow ------------
+.overflow-scroll{
+    overflow: scroll;
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}
+.overflow-y-scroll{
+    overflow-y: scroll;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+
+//centering ------------
+.centered-parent{
+    display: flex;
+    .centered-child{
+        margin: auto;
+    }
+}
+
+//img ------------
+.responsive-img{
+    width: 100%;
+    height: auto;
+}
+
+//cursor ------------
+.cursor-pointer{
+    cursor: pointer;
+}
+
+//control browser defaults ------------
+
+.no-input-focus-outline{
+    &:focus{
+        outline: none;
+    }    
+}
+.no-browser-autofill{
+    @-webkit-keyframes autofill { //remove autofill color of the browsers (autosuggest in inputs)
+        to {
+            color: white;
+            background: transparent;
+        }
+    }
+    input:-webkit-autofill {
+        -webkit-animation-name: autofill;
+        -webkit-animation-fill-mode: both;
+    }
+}

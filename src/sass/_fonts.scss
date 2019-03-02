@@ -1,0 +1,33 @@
+$font-family-c: 'Source Sans Pro', sans-serif;
+
+//mobile and up
+.font-c{
+    font-family: $font-family-c;
+    font-size: 14px;
+}
+.font-d{
+    font-family: $font-family-c;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.font-e{
+    font-family: $font-family-c;
+    font-size: 30px;    
+}
+
+
+//tablet
+@media (min-width: 640px){
+    .font-c{
+        font-family: $font-family-c;
+        font-size: 16px;
+    }
+}
+
+//desktop
+@media (min-width: 1024px){
+    .font-c{
+        font-family: $font-family-c;
+        font-size: 16px;
+    }
+}

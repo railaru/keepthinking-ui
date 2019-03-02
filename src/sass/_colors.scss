@@ -1,0 +1,76 @@
+//colour variables ==========================================================================
+$color-1:    #fff;
+$color-2:    #000;
+$color-3:    #d3d3d3;
+$color-4:    #a1a1a1;
+$color-5:    red;
+$color-6:    #3d4852;
+$color-7:    #22292f;
+$color-8:    pink;
+$color-9:    red;
+$color-10:   blue;
+
+//set background colour ==========================================================================
+.bg-1{ background: $color-1;}
+.bg-2{ background: $color-2;}
+.bg-3{ background: $color-3;}
+.bg-4{ background: $color-4;}
+.bg-5{ background: $color-5;}
+.bg-6{ background: $color-6;}
+.bg-7{ background: $color-7;}
+.bg-8{ background: $color-8;}
+.bg-9{ background: $color-9;}
+.bg-10{ background: $color-10;}
+
+//set text colour ==========================================================================
+.color-1{ color: $color-1;}
+.color-2{ color: $color-2;}
+.color-3{ color: $color-3;}
+.color-4{ color: $color-4;}
+.color-5{ color: $color-5;}
+.color-6{ color: $color-6;}
+.color-7{ color: $color-7;}
+.color-8{ color: $color-8;}
+.color-9{ color: $color-9;}
+.color-10{ color: $color-10;}
+
+//change background colour on hover ==========================================================================
+
+@mixin hover-bg($color){
+    transition: $hover-transition;
+    &:hover{
+        transition: $hover-transition;
+        background: $color;
+    }
+}
+
+.hover-bg-1{ @include hover-bg($color-1);}
+.hover-bg-2{ @include hover-bg($color-2);}
+.hover-bg-3{ @include hover-bg($color-3);}
+.hover-bg-4{ @include hover-bg($color-4);}
+.hover-bg-5{ @include hover-bg($color-5);}
+.hover-bg-6{ @include hover-bg($color-6);}
+.hover-bg-7{ @include hover-bg($color-7);}
+.hover-bg-8{ @include hover-bg($color-8);}
+.hover-bg-9{ @include hover-bg($color-9);}
+.hover-bg-10{ @include hover-bg($color-10);}
+
+//change text colour on hover ========================================================================== 
+
+@mixin hover-color($color){
+    transition: $hover-transition;
+    &:hover{
+        transition: $hover-transition;
+        color:      $color;
+    }
+}
+.hover-color-1{ @include hover-color($color-1);}
+.hover-color-2{ @include hover-color($color-2);}
+.hover-color-3{ @include hover-color($color-3);}
+.hover-color-4{ @include hover-color($color-4);}
+.hover-color-5{ @include hover-color($color-5);}
+.hover-color-6{ @include hover-color($color-6);}
+.hover-color-7{ @include hover-color($color-7);}
+.hover-color-8{ @include hover-color($color-8);}
+.hover-color-9{ @include hover-color($color-9);}
+.hover-color-10{ @include hover-color($color-10);}
