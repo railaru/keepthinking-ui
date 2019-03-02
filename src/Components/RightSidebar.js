@@ -6,16 +6,19 @@ function RightSidebar() {
         <div className="padding-left-50-perc">
             <div className="position-fixed color-4 font-d">
                 <div className="spacing-bottom-1 cursor-pointer hover-color-6">
-                    Utility-first 
+                    Based on core web technologies
                 </div>
                 <div className="spacing-bottom-1 cursor-pointer hover-color-6">
                     Component-friendly
                 </div>
                 <div className="spacing-bottom-1 cursor-pointer hover-color-6">
-                    Responsive to the core
+                    Mobile first & breakpoints
                 </div>
                 <div className="spacing-bottom-1 cursor-pointer hover-color-6">
-                    Sepererate layout, design and colours
+                    Layout, typography and colours
+                </div>
+                <div className="spacing-bottom-1 cursor-pointer hover-color-6">
+                    BEM
                 </div>
             </div> 
         </div>           

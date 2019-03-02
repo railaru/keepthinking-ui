@@ -6,9 +6,9 @@ import CenterPreview from "./CenterPreview";
 export class Content extends Component {
   render() {
     return (
-      <div class="wrapper">
-        <div class="container">
-          <div class="container__inner content-container">
+      <div className="wrapper">
+        <div className="container">
+          <div className="container__inner content-container">
             <LeftSidebar />
             <CenterPreview />
             <RightSidebar />

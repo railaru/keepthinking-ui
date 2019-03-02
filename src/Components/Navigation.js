@@ -4,15 +4,9 @@ import logo from './../static-img/logo.png'
 function Navigation() {
 
     document.addEventListener('DOMContentLoaded', function() {      
-        handleElementScrollIntoView();
         handleFilterSearch();
     });
     
-    const handleElementScrollIntoView = () => {
-      document.querySelectorAll('.search-reference').forEach(function(componentName) {
-        //componentName.style.color = 'red';
-      });
-    }
     
     const handleFilterSearch = () => {
       document.querySelector('[data-search]').addEventListener('keyup', filter)
@@ -56,16 +50,52 @@ function Navigation() {
             </div>
             <div className="top-nav__elements__socials">
               <div className="height-100-perc centered-parent width-50-perc margin-left-50-perc color-4">
-                <i className="centered-child margin-left-0 cursor-pointer fab fa-github hover-color-6" />
-                <i className="centered-child margin-left-0 cursor-pointer fab fa-twitter hover-color-6" />
-                <i className="centered-child margin-left-0 cursor-pointer fab fa-slack hover-color-6" />
+                <a 
+                  href={"https://github.com/keepthinking"}
+                  target='_blank'
+                  rel="noopener noreferrer"
+                  className='
+                  centered-child 
+                  margin-left-0 
+                  cursor-pointer
+                  color-4
+                  hover-color-6
+                  '>
+                  <i className=" fab fa-github " />
+                </a>                
+                <a 
+                  href={"https://twitter.com/keepthinking_uk"}
+                  target='_blank'
+                  rel="noopener noreferrer"
+                  className='
+                  centered-child 
+                  margin-left-0 
+                  cursor-pointer
+                  color-4
+                  hover-color-6
+                  '>
+                  <i className=" fab fa-twitter " />
+                </a>
+                <a 
+                  href={"https://keepthinking.slack.com/"}
+                  target='_blank'
+                  rel="noopener noreferrer"
+                  className='
+                  centered-child 
+                  margin-left-0 
+                  cursor-pointer
+                  color-4
+                  hover-color-6
+                  '>
+                  <i className=" fab fa-slack " />
+                </a>
               </div>
             </div>
 
             <div className="top-nav__elements__mobile-menu">
               <div className="centered-parent height-100-perc mobileMenuToggler">
                 <div className="centered-child margin-right-0">
-                  <i className="fas fa-bars top-nav__elements__mobile-menu__icon cursor-pointer" />
+                  <i id='mobileMenuToggler' className="fas fa-bars top-nav__elements__mobile-menu__icon cursor-pointer" />
                 </div>
               </div>
             </div>
