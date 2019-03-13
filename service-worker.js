@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/keepthinking-ui/precache-manifest.5c90669bf7b8cbd1fce4deb71545a59f.js"
+  "/keepthinking-ui/precache-manifest.e050167f862df9d7070d8bd09dd0b616.js"
 );
 
 workbox.clientsClaim();

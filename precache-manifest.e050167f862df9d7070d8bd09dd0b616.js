@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/keepthinking-ui/static/js/runtime~main.ce720e09.js"
   },
   {
-    "revision": "8ca3f2c9322aaffd72eb",
-    "url": "/keepthinking-ui/static/js/main.8ca3f2c9.chunk.js"
+    "revision": "3d943be8fa2ce710987b",
+    "url": "/keepthinking-ui/static/js/main.3d943be8.chunk.js"
   },
   {
     "revision": "21a84e97181494580a3b",
     "url": "/keepthinking-ui/static/js/2.21a84e97.chunk.js"
   },
   {
-    "revision": "8ca3f2c9322aaffd72eb",
+    "revision": "3d943be8fa2ce710987b",
     "url": "/keepthinking-ui/static/css/main.eed27d16.chunk.css"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/keepthinking-ui/static/css/2.4a1065d1.chunk.css"
   },
   {
-    "revision": "af0dcef61053bbe2141a975fb9a90354",
+    "revision": "f360663946cca0a1386879765949f457",
     "url": "/keepthinking-ui/index.html"
   }
 ];
