@@ -5,6 +5,141 @@ export class CenterPreview extends Component {
     return (
       <div className="spacing-top-1" data-searchable>
         <div
+          id="progressive-loading-grid_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <a href="#" className="search-target display-none">
+            progressive loading grid
+          </a>
+          <iframe
+            height={500}
+            scrolling="no"
+            title="progressive loading grid"
+            src="//codepen.io/railaru/embed/aMEQOe/?height=491&theme-id=light&default-tab=result"
+            frameborder="no"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen{" "}
+            <a href="https://codepen.io/railaru/pen/aMEQOe/">
+              progressive loading grid
+            </a>{" "}
+            by Rutenis Raila (<a href="https://codepen.io/railaru">@railaru</a>)
+            on <a href="https://codepen.io">CodePen</a>.
+          </iframe>
+        </div>
+        <div
+          id="double-cta_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <a href="#" className="search-target display-none">
+            double cta
+          </a>
+          <iframe
+            height={500}
+            scrolling="no"
+            title="double cta"
+            src="//codepen.io/railaru/embed/bZaogB/?height=265&theme-id=light&default-tab=result"
+            frameborder="no"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen{" "}
+            <a href="https://codepen.io/railaru/pen/bZaogB/">double cta</a> by
+            Rutenis Raila (<a href="https://codepen.io/railaru">@railaru</a>) on{" "}
+            <a href="https://codepen.io">CodePen</a>.
+          </iframe>
+        </div>
+        <div id="hero-cta_Target" className="search-reference spacing-bottom-2">
+          <a href="#" className="search-target display-none">
+            hero cta
+          </a>
+          <iframe
+            height={530}
+            scrolling="no"
+            title="hero cta"
+            src="//codepen.io/railaru/embed/drJZGX/?height=530&theme-id=light&default-tab=result"
+            frameborder="no"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen{" "}
+            <a href="https://codepen.io/railaru/pen/drJZGX/">hero cta</a> by
+            Rutenis Raila (<a href="https://codepen.io/railaru">@railaru</a>) on{" "}
+            <a href="https://codepen.io">CodePen</a>.
+          </iframe>
+        </div>
+        <div
+          id="masonry-grid_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <a href="#" className="search-target display-none">
+            masonry grid
+          </a>
+          <iframe
+            height={593}
+            scrolling="no"
+            title="masonry grid"
+            src="//codepen.io/railaru/embed/XGVzMr/?height=593&theme-id=light&default-tab=result"
+            frameborder="no"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen{" "}
+            <a href="https://codepen.io/railaru/pen/XGVzMr/">masonry grid</a> by
+            Rutenis Raila (<a href="https://codepen.io/railaru">@railaru</a>) on{" "}
+            <a href="https://codepen.io">CodePen</a>.
+          </iframe>
+        </div>
+        <div
+          id="see-more-slider_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <a href="#" className="search-target display-none">
+            see more slider
+          </a>
+          <iframe
+            height={508}
+            scrolling="no"
+            title="see more slider"
+            src="//codepen.io/railaru/embed/ZPJjje/?height=508&theme-id=light&default-tab=result"
+            frameborder="no"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen{" "}
+            <a href="https://codepen.io/railaru/pen/ZPJjje/">see more slider</a>{" "}
+            by Rutenis Raila (<a href="https://codepen.io/railaru">@railaru</a>)
+            on <a href="https://codepen.io">CodePen</a>.
+          </iframe>
+        </div>
+
+        <div
+          id="image-tagging-with-zoom_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <a href="#" className="search-target display-none">
+            image tagging with zoom
+          </a>
+          <iframe
+            height={916}
+            scrolling="no"
+            title="image tagging with zoom"
+            src="//codepen.io/railaru/embed/ywgvRX/?height=916&theme-id=light&default-tab=result"
+            frameborder="no"
+            allowtransparency="true"
+            allowfullscreen="true"
+          >
+            See the Pen{" "}
+            <a href="https://codepen.io/railaru/pen/ywgvRX/">
+              image tagging with zoom
+            </a>{" "}
+            by Rutenis Raila (<a href="https://codepen.io/railaru">@railaru</a>)
+            on <a href="https://codepen.io">CodePen</a>.
+          </iframe>
+        </div>
+
+        <div
           id="vertical-fullpage-slider_Target"
           className="search-reference spacing-bottom-2"
         >

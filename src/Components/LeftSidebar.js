@@ -24,6 +24,44 @@ function LeftSidebar() {
       className="height-100-perc overflow-y-scroll color-6 font-d content-container__left"
     >
       <div className="spacing-top-1 position-fixed">
+     
+     
+        <div
+          id="progressive-loading-grid"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          progressive loading grid
+        </div>
+        <div
+          id="double-cta"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          double cta
+        </div>
+        <div
+          id="hero-cta"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          hero cta
+        </div>
+        <div
+          id="masonry-grid"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          masonry grid
+        </div>
+        <div
+          id="see-more-slider"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          see more slider
+        </div>
+        <div
+          id="image-tagging-with-zoom"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          image tagging with zoom
+        </div>
         <div
           id="vertical-fullpage-slider"
           className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
