@@ -30,15 +30,16 @@ function Navigation() {
         <div className="container">
           <div className="container__inner top-nav__elements">
             <div className="top-nav__elements__logo width-50-perc-on-large">
-              <a
-                href=""
+              <div
+                
                 className="centered-parent width-100-perc height-100-perc"
               >
                 <img
                   src={logo}
                   className="centered-child responsive-img"
+                  alt=''
                 />
-              </a>
+              </div>
             </div>
             <div className="top-nav__elements__search centered-parent">
               <input

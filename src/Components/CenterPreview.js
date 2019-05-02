@@ -4,13 +4,78 @@ export class CenterPreview extends Component {
   render() {
     return (
       <div className="spacing-top-1" data-searchable>
+        
+        <div
+          id="multiple-cms-sliders_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <div className="search-target display-none">
+           multiple cms sliders
+          </div>
+
+          <iframe 
+            height={1000}             
+            scrolling="no" 
+            title="multiple cms sliders" 
+            src="//codepen.io/railaru/embed/GLqpBg/?height=1003&theme-id=light&default-tab=result" 
+            frameborder="no" 
+            allowtransparency="true" 
+            allowfullscreen="true">
+            See the Pen <a href='https://codepen.io/railaru/pen/GLqpBg/'>multiple cms sliders</a> by Rutenis Raila
+            (<a href='https://codepen.io/railaru'>@railaru</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+        </div>
+
+        <div
+          id="real-size-grid_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <div className="search-target display-none">
+            real size grid with zoom animation
+          </div>
+
+          <iframe 
+            height={700}           
+            scrolling="no" 
+            title="real size grid with scroll overflow &amp;  zoom animation" 
+            src="//codepen.io/railaru/embed/oOwyYM/?height=716&theme-id=light&default-tab=result" 
+            frameborder="no" 
+            allowtransparency="true" 
+            allowfullscreen="true">
+            See the Pen <a href='https://codepen.io/railaru/pen/oOwyYM/'>real size grid with scroll overflow &amp;  zoom animation</a> by Rutenis Raila
+            (<a href='https://codepen.io/railaru'>@railaru</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+        </div>
+      
+        <div
+          id="material-accordion_Target"
+          className="search-reference spacing-bottom-2"
+        >
+          <div className="search-target display-none">
+            material accordion
+          </div>
+
+          <iframe 
+            height={500} 
+            scrolling="no" 
+            title="material accordion" 
+            src="//codepen.io/railaru/embed/rbqpoN/?height=444&theme-id=light&default-tab=result" 
+            frameborder="no" 
+            allowtransparency="true" 
+            allowfullscreen="true">
+            See the Pen 
+              <a href='https://codepen.io/railaru/pen/rbqpoN/'>material accordion</a> by Rutenis Raila
+              (<a href='https://codepen.io/railaru'>@railaru</a>) on <a href='https://codepen.io'>CodePen</a>.
+          </iframe>
+        </div>
+
         <div
           id="progressive-loading-grid_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             progressive loading grid
-          </a>
+          </div>
           <iframe
             height={500}
             scrolling="no"
@@ -28,13 +93,14 @@ export class CenterPreview extends Component {
             on <a href="https://codepen.io">CodePen</a>.
           </iframe>
         </div>
+
         <div
           id="double-cta_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             double cta
-          </a>
+          </div>
           <iframe
             height={500}
             scrolling="no"
@@ -51,9 +117,9 @@ export class CenterPreview extends Component {
           </iframe>
         </div>
         <div id="hero-cta_Target" className="search-reference spacing-bottom-2">
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             hero cta
-          </a>
+          </div>
           <iframe
             height={530}
             scrolling="no"
@@ -73,9 +139,9 @@ export class CenterPreview extends Component {
           id="masonry-grid_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             masonry grid
-          </a>
+          </div>
           <iframe
             height={593}
             scrolling="no"
@@ -95,9 +161,9 @@ export class CenterPreview extends Component {
           id="see-more-slider_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             see more slider
-          </a>
+          </div>
           <iframe
             height={508}
             scrolling="no"
@@ -118,9 +184,9 @@ export class CenterPreview extends Component {
           id="image-tagging-with-zoom_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             image tagging with zoom
-          </a>
+          </div>
           <iframe
             height={916}
             scrolling="no"
@@ -143,9 +209,9 @@ export class CenterPreview extends Component {
           id="vertical-fullpage-slider_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             vertical fullpage slider
-          </a>
+          </div>
           <iframe
             height={650}
             scrolling="no"
@@ -167,9 +233,9 @@ export class CenterPreview extends Component {
           id="horizontal-fullpage-slider_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             horizontal fullpage slider
-          </a>
+          </div>
           <iframe
             height={650}
             scrolling="no"
@@ -191,9 +257,9 @@ export class CenterPreview extends Component {
           id="folder-view_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             folder view
-          </a>
+          </div>
           <iframe
             height={650}
             scrolling="no"
@@ -216,9 +282,9 @@ export class CenterPreview extends Component {
           id="float-grid_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             float grid
-          </a>
+          </div>
           <iframe
             height={650}
             scrolling="no"
@@ -239,9 +305,9 @@ export class CenterPreview extends Component {
           id="loading-dots_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             loading dots
-          </a>
+          </div>
           <iframe
             height={250}
             scrolling="no"
@@ -264,9 +330,9 @@ export class CenterPreview extends Component {
           id="image-tagging_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             image tagging
-          </a>
+          </div>
           <iframe
             height={650}
             scrolling="no"
@@ -289,9 +355,9 @@ export class CenterPreview extends Component {
           id="footnote-popups_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             footnote popups
-          </a>
+          </div>
           <iframe
             height={650}
             scrolling="no"
@@ -312,9 +378,9 @@ export class CenterPreview extends Component {
           id="accordion_Target"
           className="search-reference spacing-bottom-2"
         >
-          <a href="#" className="search-target display-none">
+          <div className="search-target display-none">
             accordion
-          </a>
+          </div>
           <iframe
             height={650}
             scrolling="no"

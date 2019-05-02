@@ -24,7 +24,27 @@ function LeftSidebar() {
       className="height-100-perc overflow-y-scroll color-6 font-d content-container__left"
     >
       <div className="spacing-top-1 position-fixed">
-     
+
+        <div
+          id="multiple-cms-sliders"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          Multiple CMS sliders
+        </div>     
+
+        <div
+          id="real-size-grid"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          Real Size Grid
+        </div>     
+
+        <div
+          id="material-accordion"
+          className="search-reference spacing-bottom-1 cursor-pointer underline-on-hover"
+        >
+          Material Accordion
+        </div>     
      
         <div
           id="progressive-loading-grid"
